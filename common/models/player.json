@@ -1,0 +1,28 @@
+{
+  "name": "player",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "extends": "./.eslintrc",
+  "rules": {
+    "eol-last": 0
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string"
+    },
+    "average": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
